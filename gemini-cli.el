@@ -4,7 +4,7 @@
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (vterm "0.0.1") (project "0.3.0"))
 ;; Keywords: tools, processes, terminals
-;; URL: https://github.com/dawsh2/gemini-emacs
+;; URL: https://github.com/dawsh2/gemini-cli
 
 ;;; Commentary:
 ;; Robust Gemini CLI integration with vterm, inspired by claude-code.el

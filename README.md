@@ -1,4 +1,4 @@
-# gemini-emacs
+# gemini-cli
 
 Gemini CLI integration for Emacs, providing an interactive AI assistant via terminal.
 
@@ -17,11 +17,11 @@ Gemini CLI integration for Emacs, providing an interactive AI assistant via term
 ```elisp
 ;; Using straight.el
 (straight-use-package
-  '(gemini-cli :type git :host github :repo "dawsh2/gemini-emacs" :files ("gemini-cli.el")))
+  '(gemini-cli :type git :host github :repo "dawsh2/gemini-cli" :files ("gemini-cli.el")))
 
 ;; Or using use-package with straight
 (use-package gemini-cli
-  :straight (gemini-cli :type git :host github :repo "dawsh2/gemini-emacs" :files ("gemini-cli.el"))
+  :straight (gemini-cli :type git :host github :repo "dawsh2/gemini-cli" :files ("gemini-cli.el"))
   :bind (("C-c g s" . gemini-send-prompt)
          ("C-c g r" . gemini-send-region)
          ("C-c g b" . gemini-send-buffer)
@@ -30,7 +30,7 @@ Gemini CLI integration for Emacs, providing an interactive AI assistant via term
          ("C-c g k" . gemini-kill)))
 
 ;; Or manually
-(add-to-list 'load-path "/path/to/gemini-emacs")
+(add-to-list 'load-path "/path/to/gemini-cli")
 (require 'gemini-cli)
 ```
 
