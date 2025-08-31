@@ -1,0 +1,8 @@
+*.elc
+*~
+.DS_Store
+*.cache
+*.log
+/elpa/
+/auto-save-list/
+/eln-cache/
